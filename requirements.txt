@@ -1,0 +1,7 @@
+torch
+transformers
+pillow
+pandas
+numpy
+scikit-learn
+# deepseek-vl2 (private or local install required)
