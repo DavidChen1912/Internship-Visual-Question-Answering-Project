@@ -26,13 +26,13 @@ The full project pipeline and documentation can be found under the [`/docs`](./d
 
 ## 🛠️ Scripts  
 
-- **`execute.py`** – Runs the full evaluation workflow (end-to-end).  
-- **`inference.py`** – Performs model inference on test data and saves raw outputs.  
-- **`evaluation_員工報支.py`** – Evaluation for invoice tasks.  
-- **`evaluation_存摺封面.py`** – Evaluation for bankbook cover tasks.  
-- **`evaluation_損益表.py`** – Evaluation for income statement tasks.  
-- **`evaluation_貸款申請書.py`** – Evaluation for loan application tasks.  
-- **`evaluation_資產負債表.py`** – Evaluation for balance sheet tasks.  
+- **`execute.py`**: Runs the full evaluation workflow (end-to-end).  
+- **`inference.py`**: Performs model inference on test data and saves raw outputs.  
+- **`evaluation_員工報支.py`**: Evaluation for invoice tasks.  
+- **`evaluation_存摺封面.py`**: Evaluation for bankbook cover tasks.  
+- **`evaluation_損益表.py`**: Evaluation for income statement tasks.  
+- **`evaluation_貸款申請書.py`**: Evaluation for loan application tasks.  
+- **`evaluation_資產負債表.py`**: Evaluation for balance sheet tasks.  
 
 ---
 
@@ -84,4 +84,5 @@ python evaluation_資產負債表.py --pred_name=deepseek_vl2
 
 #### Notes:
 - **`pred_name`** should match the output filename in [`/outputs`](./outputs).
+
 
