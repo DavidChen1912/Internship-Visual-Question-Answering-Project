@@ -50,6 +50,8 @@ python execute.py --model=deepseek-vl2-tiny --data_type=損益表
 - **`data_type`** specifies the task (e.g., invoice, passbook, income statement).
 - The one-click execution uses generalized parameters. For more customized testing, run inference and evaluation separately as shown below.
 
+---
+
 ## 🔎 Inference
 
 Run inference only (no evaluation):
@@ -61,6 +63,8 @@ python inference.py --model=deepseek-vl2-tiny --data_type=損益表 --prompt_nam
 #### Notes:
 - Each task may support multiple prompts; choose the one that fits your experiment.
 - **`output_name`** determines the filename saved in [`/outputs`](./outputs).
+
+---
 
 ## 📊 Evaluation
 
@@ -85,6 +89,7 @@ python evaluation_資產負債表.py --pred_name=deepseek_vl2
 
 #### Notes:
 - **`pred_name`** should match the output filename in [`/outputs`](./outputs).
+
 
 
 
