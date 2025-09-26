@@ -1,4 +1,5 @@
 # Internship – E.SUN Commercial Bank  
+<img src="docs/Esun-logo.png" alt="E.SUN Bank Logo" width="120"/>
 **Visual Question Answering Project**
 
 ## ⚠️ Disclaimer  
@@ -84,5 +85,6 @@ python evaluation_資產負債表.py --pred_name=deepseek_vl2
 
 #### Notes:
 - **`pred_name`** should match the output filename in [`/outputs`](./outputs).
+
 
 
