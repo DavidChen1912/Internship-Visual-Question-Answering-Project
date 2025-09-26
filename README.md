@@ -21,7 +21,7 @@ To address this, our team built an **end-to-end evaluation pipeline** that integ
 - automatic leaderboard updating  
 
 This system enables internal users to quickly benchmark multiple models with **one command**.  
-The full project pipeline and documentation can be found under the [`/docs`](./docs) directory.  
+Additional project materials are stored in the [`/docs`](./docs) directory.
 
 ---
 
@@ -89,6 +89,7 @@ python evaluation_資產負債表.py --pred_name=deepseek_vl2
 
 #### Notes:
 - **`pred_name`** should match the output filename in [`/outputs`](./outputs).
+
 
 
 
