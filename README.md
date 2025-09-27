@@ -5,7 +5,7 @@
 ## ⚠️ Disclaimer  
 This repository documents my internship project at **E.SUN Commercial Bank**.  
 Since the project involves **image-based proprietary datasets**, no open-source substitutes are available.  
-This repository only provides **illustrative examples and code structure**, without including any company data.  
+This repository only provides **code structure**, without including any company data.  
 
 ---
 
@@ -89,6 +89,7 @@ python evaluation_資產負債表.py --pred_name=deepseek_vl2
 
 #### Notes:
 - **`pred_name`** should match the output filename in [`/outputs`](./outputs).
+
 
 
 
